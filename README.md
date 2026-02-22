@@ -1,71 +1,31 @@
-## Hi there 👋
-```
-<!--
-**jamal-salem/jamal-salem** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=2500&color=00F0FF&center=true&vCenter=true&width=900&lines=Jamal+Salem;Deep+Computer+Systems;Digital+Logic+%7C+Sensors+%7C+Signal+Physics;Exploring+Silicon+Layer+by+Layer" />
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2&section=header"/>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-```
-# Hi there 👋 I'm Jamal
 
-### 💻 Computer Engineer | Creative Technologist | System Explorer
 
----
 
-## 🚀 About Me
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,python,js,html,css,git,linux,powershell&theme=dark" />
+</p>
 
-- 🔬 Deeply interested in low-level systems & digital logic  
-- 🧠 Exploring FPGA, C, HDL, and system architecture  
-- 🎨 Building creative experiments using JavaScript & p5.js  
-- 🛡 Learning Cybersecurity & OS Internals  
+<p align="center">
+  <img src="https://img.shields.io/badge/Assembly-CPU%20Architecture-111111?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/HDL-Digital%20Logic-00BFA6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Sensors-Signal%20Processing-1E90FF?style=for-the-badge"/>
+</p>
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0ABAB5&height=2&section=header"/>
+</p>
 
-## 🧪 Current Focus
 
-```text
-C Programming
-FPGA Development
-Digital Systems
-System-Level Understanding
-```
-
----
-
-## 🌍 Live Projects
-
-🎨 p5.js Drawing App  
-👉 https://jamal-salem.github.io/JavaScript/
-
----
-
-## 📊 GitHub Stats
-
-![Jamal's GitHub stats](https://github-readme-stats.vercel.app/api?username=jamal-salem&show_icons=true&theme=tokyonight)
-
----
-
-## 🔥 Streak Stats
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jamal-salem&theme=tokyonight)
-
----
-
-## 🛠 Languages
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jamal-salem&layout=compact&theme=tokyonight)
-
----
-
-## 🧠 Philosophy
-
-> "The deeper I go into the machine, the more I understand the world."
+- Digital Systems Architecture  
+- Memory-Level Thinking  
+- Sensor Behavior Analysis  
+- Signal Flow & Physical Constraints  
+- Hardware Abstraction Deconstruction  
