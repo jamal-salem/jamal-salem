@@ -32,12 +32,19 @@
 
 
 
-<p align="center">
-  <img src="https://github.com/jamal-salem/JavaScript/blob/main/assets/digital_frequency_signal.gif" width="750"/>
-</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="700"/>
 </p>
+
+
+
+<p align="center">
+  <img src="https://github.com/jamal-salem/JavaScript/blob/main/assets/dark_neon_digital_signals.gif" width="700"/>
+</p>
+
+
+
+
 
 
