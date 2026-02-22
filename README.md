@@ -45,6 +45,50 @@
 
 
 
+---
+
+##  Digital Signals & FPGA Engineering
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HDL-Verilog-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/FPGA-Design-6A5ACD?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Digital-Logic-00CED1?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Signal-Processing-FF8C00?style=for-the-badge">
+</p>
+
+###  Core Areas
+- Finite State Machines (FSM)
+- Combinational & Sequential Logic
+- Timing Analysis & Clock Domains
+- Binary Arithmetic & Bitwise Operations
+- Signal Integrity & Noise Awareness
+
+---
+
+###  FPGA Laboratory Work
+- Basic ALU Implementation in HDL
+- Clock Divider & Pulse Generator
+- UART Communication Prototype
+- Sensor Signal Conditioning
+- Hardware-Level Debugging
+
+---
+
+
+
+```
+Clock Signal:
+|‾|_|‾|_|‾|_|‾|_
+
+PWM Signal:
+|‾‾‾|__|‾‾‾|__|‾‾‾|
+
+Data Signal:
+__|‾|____|‾‾|_|‾|
+```
+
+
+
 
 
 
