@@ -10,7 +10,7 @@
 
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,python,js,html,css,git,linux,powershell&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=c,python,git,linux,powershell&theme=dark" />
 </p>
 
 <p align="center">
