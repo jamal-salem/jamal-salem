@@ -15,7 +15,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Assembly-CPU%20Architecture-111111?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/HDL-Digital%20Logic-00BFA6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/VHDL-Digital%20Logic-00BFA6?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Sensors-Signal%20Processing-1E90FF?style=for-the-badge"/>
 </p>
 
