@@ -80,5 +80,18 @@ __|‾|____|‾‾|_|‾|
 
 
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=3000&color=00FFE0&center=true&vCenter=true&width=700&lines=FPGA+%7C+Digital+Logic+%7C+Verilog;Embedded+Systems+Engineer;Signal+Processing+Explorer;Building+SEBIS+Project" />
+</p>
 
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,python,linux,git&theme=dark" />
+</p>
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/FPGA-Design-0A66C2?style=for-the-badge&logo=amd&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Verilog-HDL-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Digital%20Logic-Engineering-blue?style=for-the-badge"/>
+</p>
