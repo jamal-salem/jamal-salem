@@ -74,5 +74,11 @@ __|‾|____|‾‾|_|‾|
 
 
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Jamal%20Salem%20%7C%20FPGA%20Engineer&fontSize=35&fontColor=00ffe0&animation=fadeIn" />
+</p>
+
+
+
 
 
