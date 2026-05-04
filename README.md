@@ -70,9 +70,7 @@ Data Signal:
 __|‾|____|‾‾|_|‾|
 ```
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jamal-salem/jamal-salem/main/893dcd20-f2da-4ef3-a346-e49cd327a20c.png" width="250"/>
-</p>
+
 
 <h2 align="center">Jamal Salem | FPGA Engineer</h2>
 
