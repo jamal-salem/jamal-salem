@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="360" viewBox="0 0 580 360" role="img" aria-label="Animated radar scanner">
+  <defs>
+    <radialGradient id="radarBg" cx="50%" cy="50%" r="58%">
+      <stop offset="0" stop-color="#083344"/>
+      <stop offset=".72" stop-color="#041526"/>
+      <stop offset="1" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="580" height="360" rx="18" fill="#020617" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="26" y="36" font-family="JetBrains Mono, Consolas, monospace" font-size="18" fill="#e0faff">RADAR SCAN</text>
+  <text x="430" y="36" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#22d3ee">ACTIVE LOCK</text>
+  <g transform="translate(290 190)" filter="url(#glow)">
+    <circle r="132" fill="url(#radarBg)" stroke="#22d3ee" stroke-width="2"/>
+    <circle r="96" fill="none" stroke="#38bdf8" stroke-width="1" opacity=".55"/>
+    <circle r="60" fill="none" stroke="#38bdf8" stroke-width="1" opacity=".45"/>
+    <circle r="24" fill="none" stroke="#38bdf8" stroke-width="1" opacity=".35"/>
+    <path d="M0 0 L0 -132 A132 132 0 0 1 112 -70 Z" fill="url(#beam)" opacity=".9">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+    <line x1="-132" y1="0" x2="132" y2="0" stroke="#22d3ee" opacity=".35"/>
+    <line x1="0" y1="-132" x2="0" y2="132" stroke="#22d3ee" opacity=".35"/>
+    <circle cx="-48" cy="-62" r="5" fill="#22d3ee"><animate attributeName="r" values="4;8;4" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="72" cy="40" r="5" fill="#38bdf8"><animate attributeName="opacity" values=".2;1;.2" dur="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="22" cy="-102" r="4" fill="#a5f3fc"><animate attributeName="opacity" values="1;.15;1" dur="2.1s" repeatCount="indefinite"/></circle>
+  </g>
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#a5f3fc">
+    <text x="32" y="316">CLK DRIFT: STABLE</text>
+    <text x="224" y="316">UART EDGE: DETECTED</text>
+    <text x="418" y="316">ADC BURST: CAPTURED</text>
+  </g>
+</svg>

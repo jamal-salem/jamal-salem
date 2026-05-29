@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Jamal Salem FPGA Command Center</title>
+  <desc id="desc">Animated cyber engineering hero with HUD rings, scanlines, and FPGA chip visuals.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#123b61"/>
+      <stop offset="45%" stop-color="#06172c"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="cyan" x1="0" x2="1">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset=".5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#0e7490" stroke-width="1" opacity=".24"/>
+    </pattern>
+    <mask id="scanMask">
+      <rect width="1200" height="360" fill="white"/>
+      <rect width="1200" height="16" fill="black" opacity=".35">
+        <animate attributeName="y" values="-20;360" dur="5s" repeatCount="indefinite"/>
+      </rect>
+    </mask>
+  </defs>
+  <rect width="1200" height="360" fill="url(#glow)"/>
+  <rect width="1200" height="360" fill="url(#grid)" mask="url(#scanMask)"/>
+  <g opacity=".9">
+    <path d="M0 306H260l36-34h138l31 34h735" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".5"/>
+    <path d="M0 70h212l38 34h160l34-34h756" fill="none" stroke="#38bdf8" stroke-width="2" opacity=".35"/>
+    <path d="M24 24h250M926 24h250M24 336h250M926 336h250" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(92 74)" filter="url(#softGlow)">
+    <rect x="0" y="0" width="218" height="174" rx="18" fill="#020617" stroke="#22d3ee" stroke-width="2"/>
+    <rect x="42" y="40" width="134" height="94" rx="12" fill="#06172c" stroke="url(#cyan)" stroke-width="3"/>
+    <g stroke="#22d3ee" stroke-width="2">
+      <path d="M42 56H8M42 78H8M42 100H8M42 122H8M176 56h34M176 78h34M176 100h34M176 122h34"/>
+      <path d="M64 40V12M88 40V12M112 40V12M136 40V12M160 40V12M64 134v28M88 134v28M112 134v28M136 134v28M160 134v28"/>
+    </g>
+    <circle cx="109" cy="87" r="28" fill="none" stroke="#38bdf8" stroke-width="2">
+      <animate attributeName="r" values="22;34;22" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".9;.25;.9" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="109" y="94" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="18" fill="#e0faff">FPGA</text>
+  </g>
+  <g transform="translate(870 66)" filter="url(#softGlow)">
+    <circle cx="135" cy="100" r="82" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".7"/>
+    <circle cx="135" cy="100" r="52" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity=".55"/>
+    <line x1="135" y1="100" x2="135" y2="18" stroke="#22d3ee" stroke-width="5" stroke-linecap="round" opacity=".65">
+      <animateTransform attributeName="transform" type="rotate" from="0 135 100" to="360 135 100" dur="3.2s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="88" cy="70" r="4" fill="#22d3ee"><animate attributeName="opacity" values="1;.2;1" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="176" cy="128" r="4" fill="#38bdf8"><animate attributeName="opacity" values=".2;1;.2" dur="2.1s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="600" y="148" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="58" font-weight="800" fill="#e0faff" filter="url(#softGlow)">JAMAL SALEM</text>
+  <text x="600" y="194" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="19" fill="#22d3ee">FPGA LABORATORY | SIGNAL INTELLIGENCE | SEBIS CORE</text>
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#a5f3fc">
+    <text x="386" y="248">FABRIC ONLINE</text>
+    <text x="536" y="248">CLOCK LOCKED</text>
+    <text x="682" y="248">DSP STREAMING</text>
+    <text x="848" y="248">RTL ACTIVE</text>
+  </g>
+  <rect x="342" y="226" width="520" height="34" rx="17" fill="none" stroke="#22d3ee" opacity=".45"/>
+  <rect x="342" y="226" width="104" height="34" rx="17" fill="#22d3ee" opacity=".18">
+    <animate attributeName="x" values="342;758;342" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>

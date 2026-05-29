@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="360" viewBox="0 0 580 360" role="img" aria-label="Animated FPGA architecture">
+  <defs>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="chip" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#05263a"/>
+    </linearGradient>
+  </defs>
+  <rect width="580" height="360" rx="18" fill="#020617" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="26" y="36" font-family="JetBrains Mono, Consolas, monospace" font-size="18" fill="#e0faff">FPGA ARCHITECTURE</text>
+  <g transform="translate(82 66)" filter="url(#glow)">
+    <rect x="64" y="40" width="290" height="206" rx="18" fill="url(#chip)" stroke="#22d3ee" stroke-width="3"/>
+    <g stroke="#22d3ee" stroke-width="2" opacity=".85">
+      <path d="M64 70H18M64 104H18M64 138H18M64 172H18M64 206H18"/>
+      <path d="M354 70h46M354 104h46M354 138h46M354 172h46M354 206h46"/>
+      <path d="M100 40V8M146 40V8M192 40V8M238 40V8M284 40V8M330 40V8"/>
+      <path d="M100 246v32M146 246v32M192 246v32M238 246v32M284 246v32M330 246v32"/>
+    </g>
+    <g fill="#06172c" stroke="#38bdf8" stroke-width="2">
+      <rect x="92" y="68" width="70" height="48" rx="8"/>
+      <rect x="174" y="68" width="70" height="48" rx="8"/>
+      <rect x="256" y="68" width="70" height="48" rx="8"/>
+      <rect x="92" y="134" width="70" height="48" rx="8"/>
+      <rect x="174" y="134" width="70" height="48" rx="8"/>
+      <rect x="256" y="134" width="70" height="48" rx="8"/>
+      <rect x="92" y="200" width="234" height="24" rx="8"/>
+    </g>
+    <g stroke="#22d3ee" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M162 92h12M244 92h12M127 116v18M209 116v18M291 116v18M162 158h12M244 158h12M127 182v18M209 182v18M291 182v18">
+        <animate attributeName="stroke-dasharray" values="1 16;18 8;1 16" dur="2.4s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#e0faff" text-anchor="middle">
+      <text x="127" y="98">PLL</text><text x="209" y="98">RTL</text><text x="291" y="98">DSP</text>
+      <text x="127" y="164">UART</text><text x="209" y="164">BRAM</text><text x="291" y="164">ADC</text>
+      <text x="209" y="217">SEBIS REGISTER FABRIC</text>
+    </g>
+    <circle cx="72" cy="48" r="7" fill="#22d3ee"><animate attributeName="opacity" values=".25;1;.25" dur="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="346" cy="238" r="7" fill="#38bdf8"><animate attributeName="opacity" values="1;.25;1" dur="1.7s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

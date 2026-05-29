@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="360" viewBox="0 0 580 360" role="img" aria-label="Animated oscilloscope waveforms">
+  <defs>
+    <clipPath id="scopeClip"><rect x="34" y="58" width="512" height="250" rx="10"/></clipPath>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="580" height="360" rx="18" fill="#020617" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="26" y="36" font-family="JetBrains Mono, Consolas, monospace" font-size="18" fill="#e0faff">OSCILLOSCOPE</text>
+  <rect x="34" y="58" width="512" height="250" rx="10" fill="#031426" stroke="#155e75"/>
+  <g clip-path="url(#scopeClip)">
+    <g stroke="#0e7490" stroke-width="1" opacity=".45">
+      <path d="M34 108h512M34 158h512M34 208h512M34 258h512M85 58v250M136 58v250M187 58v250M238 58v250M289 58v250M340 58v250M391 58v250M442 58v250M493 58v250"/>
+    </g>
+    <g filter="url(#glow)" fill="none" stroke-linecap="round" stroke-width="4">
+      <path d="M-520 104 C-470 64 -420 144 -370 104 S-270 64 -220 104 S-120 144 -70 104 S30 64 80 104 S180 144 230 104 S330 64 380 104 S480 144 530 104 S630 64 680 104 S780 144 830 104" stroke="#22d3ee">
+        <animateTransform attributeName="transform" type="translate" values="0 0;520 0" dur="3.8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M-520 176 H-478 V138 H-430 V176 H-352 V138 H-304 V176 H-226 V138 H-178 V176 H-100 V138 H-52 V176 H26 V138 H74 V176 H152 V138 H200 V176 H278 V138 H326 V176 H404 V138 H452 V176 H530 V138 H578 V176 H656 V138 H704 V176 H782" stroke="#38bdf8">
+        <animateTransform attributeName="transform" type="translate" values="0 0;520 0" dur="2.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M-520 250 C-450 232 -420 268 -362 250 C-302 232 -272 268 -214 250 C-154 232 -124 268 -66 250 C-6 232 24 268 82 250 C142 232 172 268 230 250 C290 232 320 268 378 250 C438 232 468 268 526 250 C586 232 616 268 674 250" stroke="#a5f3fc" opacity=".85">
+        <animateTransform attributeName="transform" type="translate" values="0 0;520 0" dur="5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <rect x="34" y="58" width="48" height="250" fill="#22d3ee" opacity=".08">
+      <animate attributeName="x" values="34;546;34" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#a5f3fc">
+    <text x="40" y="330">CH1 ADC</text><text x="162" y="330">CH2 CLK</text><text x="282" y="330">CH3 PWM</text><text x="412" y="330">TRIGGER: LOCK</text>
+  </g>
+</svg>
