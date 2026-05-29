@@ -20,9 +20,3 @@ signal behavior,
 hardware intelligence,
 and cyber-physical architectures.
 ```
-
-<h2 align="center">RADAR INTELLIGENCE SYSTEM</h2>
-
-<p align="center">
-  <img src="./svg/radar-scanner.svg" width="850">
-</p>
