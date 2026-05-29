@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="300" viewBox="0 0 380 300" role="img" aria-label="Animated SPI communication">
+  <defs><filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="380" height="300" rx="18" fill="#020617" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="24" y="34" font-family="JetBrains Mono, Consolas, monospace" font-size="18" fill="#e0faff">SPI BUS</text>
+  <g transform="translate(28 78)" filter="url(#glow)" font-family="JetBrains Mono, Consolas, monospace" font-size="11" fill="#a5f3fc">
+    <rect x="0" y="0" width="324" height="150" rx="12" fill="#031426" stroke="#155e75"/>
+    <text x="12" y="34">CS</text><text x="12" y="70">SCLK</text><text x="12" y="106">MOSI</text><text x="12" y="140">MISO</text>
+    <g stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M58 28 H96 V50 H284 V28 H314" stroke="#38bdf8"/>
+      <path d="M58 68 h18 v-18 h18 v18 h18 v-18 h18 v18 h18 v-18 h18 v18 h18 v-18 h18 v18 h18 v-18 h18 v18 h18 v-18 h18 v18 h18" stroke="#22d3ee">
+        <animate attributeName="stroke-dasharray" values="2 10;16 12;2 10" dur="1.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M58 104 H92 L110 90 L128 104 H164 L182 90 L200 104 H236 L254 90 L272 104 H314" stroke="#a5f3fc">
+        <animate attributeName="stroke-dashoffset" values="0;-80" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-dasharray" values="8 8;14 10;8 8" dur="2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M58 138 H82 L100 124 L118 138 H154 L172 124 L190 138 H226 L244 124 L262 138 H314" stroke="#0ea5e9">
+        <animate attributeName="stroke-dashoffset" values="-80;0" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-dasharray" values="6 12;14 8;6 12" dur="2.2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <circle cx="76" cy="68" r="5" fill="#22d3ee"><animate attributeName="cx" values="76;292;76" dur="1.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="28" y="252" font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#a5f3fc">MODE 0 | FULL DUPLEX | CHIP SELECT ACTIVE</text>
+</svg>

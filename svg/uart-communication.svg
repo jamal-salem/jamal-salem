@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="300" viewBox="0 0 380 300" role="img" aria-label="Animated UART communication">
+  <defs><filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="380" height="300" rx="18" fill="#020617" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="24" y="34" font-family="JetBrains Mono, Consolas, monospace" font-size="18" fill="#e0faff">UART LINK</text>
+  <g transform="translate(24 84)" filter="url(#glow)">
+    <rect x="0" y="0" width="332" height="130" rx="12" fill="#031426" stroke="#155e75"/>
+    <g stroke="#0e7490" opacity=".45"><path d="M0 43h332M0 86h332M42 0v130M84 0v130M126 0v130M168 0v130M210 0v130M252 0v130M294 0v130"/></g>
+    <path d="M-332 32 H-286 V96 H-244 V32 H-202 V96 H-160 V96 H-118 V32 H-76 V96 H-34 V32 H8 V32 H50 V96 H92 V32 H134 V96 H176 V32 H218 V32 H260 V96 H302 V32 H344 V32 H386 V96 H428" fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" values="0 0;332 0" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+    <rect x="0" y="0" width="48" height="130" fill="#22d3ee" opacity=".07">
+      <animate attributeName="x" values="0;284;0" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#a5f3fc">
+    <text x="26" y="248">BAUD: 115200</text><text x="158" y="248">FRAME: 8N1</text><text x="276" y="248">RX/TX LIVE</text>
+  </g>
+</svg>

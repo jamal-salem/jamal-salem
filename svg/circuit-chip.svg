@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="circuit-chip" viewBox="0 0 110 110">
+    <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="29" y="29" width="52" height="52" rx="8"/>
+      <rect x="42" y="42" width="26" height="26" rx="3"/>
+      <path d="M18 38h11M18 55h11M18 72h11M81 38h11M81 55h11M81 72h11"/>
+      <path d="M38 18v11M55 18v11M72 18v11M38 81v11M55 81v11M72 81v11"/>
+      <path d="M9 28h9l7 7M101 28h-9l-7 7M9 82h9l7-7M101 82h-9l-7-7"/>
+      <circle cx="55" cy="55" r="6"/>
+    </g>
+  </symbol>
+</svg>

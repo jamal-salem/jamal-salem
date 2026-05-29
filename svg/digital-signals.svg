@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Animated digital signal lanes">
+  <defs>
+    <clipPath id="clip"><rect x="40" y="64" width="1120" height="230" rx="14"/></clipPath>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="#020617" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="38" y="38" font-family="JetBrains Mono, Consolas, monospace" font-size="20" fill="#e0faff">DIGITAL SIGNAL VISUALIZATION</text>
+  <rect x="40" y="64" width="1120" height="230" rx="14" fill="#031426" stroke="#155e75"/>
+  <g clip-path="url(#clip)">
+    <g stroke="#0e7490" stroke-width="1" opacity=".38">
+      <path d="M40 110h1120M40 156h1120M40 202h1120M40 248h1120"/>
+      <path d="M120 64v230M200 64v230M280 64v230M360 64v230M440 64v230M520 64v230M600 64v230M680 64v230M760 64v230M840 64v230M920 64v230M1000 64v230M1080 64v230"/>
+    </g>
+    <g filter="url(#glow)" fill="none" stroke-width="4" stroke-linecap="round">
+      <path d="M-1120 104h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40V82h40v22h40" stroke="#22d3ee">
+        <animateTransform attributeName="transform" type="translate" values="0 0;1120 0" dur="3s" repeatCount="indefinite"/>
+      </path>
+      <path d="M-1120 158h120v-30h90v30h130v-30h90v30h130v-30h90v30h130v-30h90v30h130v-30h90v30h130v-30h90v30h130v-30h90" stroke="#38bdf8">
+        <animateTransform attributeName="transform" type="translate" values="0 0;1120 0" dur="4.6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M-1120 208h60v-30h72v30h84v-30h60v30h96v-30h72v30h84v-30h60v30h96v-30h72v30h84v-30h60v30h96v-30h72v30h84v-30h60v30h96" stroke="#a5f3fc">
+        <animateTransform attributeName="transform" type="translate" values="0 0;1120 0" dur="5.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M-1120 252 C-1030 218 -980 286 -900 252 S-740 218 -660 252 S-500 286 -420 252 S-260 218 -180 252 S-20 286 60 252 S220 218 300 252 S460 286 540 252 S700 218 780 252 S940 286 1020 252 S1180 218 1260 252" stroke="#0ea5e9">
+        <animateTransform attributeName="transform" type="translate" values="0 0;1120 0" dur="6s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <rect x="40" y="64" width="70" height="230" fill="#22d3ee" opacity=".07">
+      <animate attributeName="x" values="40;1090;40" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#a5f3fc">
+    <text x="54" y="100">CLK</text><text x="54" y="150">PWM</text><text x="54" y="198">UART</text><text x="54" y="246">ADC</text>
+    <text x="906" y="326">REAL-TIME FPGA TIMING LANES</text>
+  </g>
+</svg>

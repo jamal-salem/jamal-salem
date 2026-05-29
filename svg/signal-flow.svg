@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="360" viewBox="0 0 580 360" role="img" aria-label="Animated signal flow pipeline">
+  <defs>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0l10 4-10 4z" fill="#22d3ee"/></marker>
+  </defs>
+  <rect width="580" height="360" rx="18" fill="#020617" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="26" y="36" font-family="JetBrains Mono, Consolas, monospace" font-size="18" fill="#e0faff">SIGNAL FLOW</text>
+  <g filter="url(#glow)">
+    <g fill="#06172c" stroke="#22d3ee" stroke-width="2">
+      <rect x="38" y="96" width="96" height="72" rx="12"/>
+      <rect x="178" y="96" width="96" height="72" rx="12"/>
+      <rect x="318" y="96" width="96" height="72" rx="12"/>
+      <rect x="458" y="96" width="84" height="72" rx="12"/>
+      <rect x="178" y="222" width="236" height="64" rx="14" stroke="#38bdf8"/>
+    </g>
+    <g stroke="#22d3ee" stroke-width="4" fill="none" marker-end="url(#arrow)">
+      <path d="M134 132h42"/>
+      <path d="M274 132h42"/>
+      <path d="M414 132h42"/>
+      <path d="M500 168 C500 250 414 254 414 254"/>
+      <path d="M178 254 C86 254 86 168 86 168"/>
+    </g>
+    <g fill="#22d3ee">
+      <circle r="6">
+        <animateMotion dur="2.8s" repeatCount="indefinite" path="M86 132 H500 C500 250 414 254 296 254 C86 254 86 168 86 132"/>
+      </circle>
+      <circle r="4" fill="#38bdf8">
+        <animateMotion dur="2.8s" begin=".8s" repeatCount="indefinite" path="M86 132 H500 C500 250 414 254 296 254 C86 254 86 168 86 132"/>
+      </circle>
+    </g>
+    <g font-family="JetBrains Mono, Consolas, monospace" font-size="12" fill="#e0faff" text-anchor="middle">
+      <text x="86" y="137">SENSOR</text><text x="226" y="137">ADC</text><text x="366" y="137">FPGA</text><text x="500" y="137">I/O</text><text x="296" y="260">SEBIS ANALYTICS CORE</text>
+    </g>
+  </g>
+</svg>

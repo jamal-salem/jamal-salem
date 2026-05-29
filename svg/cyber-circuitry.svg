@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Animated neon cyber circuitry panel">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset=".5" stop-color="#071a32"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="220" rx="16" fill="url(#bg)" stroke="#0ea5e9" stroke-width="2"/>
+  <g stroke="#155e75" stroke-width="1" opacity=".42">
+    <path d="M0 44h1200M0 88h1200M0 132h1200M0 176h1200M80 0v220M200 0v220M320 0v220M440 0v220M560 0v220M680 0v220M800 0v220M920 0v220M1040 0v220"/>
+  </g>
+  <g fill="none" stroke="#22d3ee" stroke-width="3" filter="url(#glow)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M35 110H180l45-45h120l32 32h120l55-55h132l40 40h158l58 58h226">
+      <animate attributeName="stroke-dasharray" values="20 18;5 10;20 18" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dashoffset" values="0;-160" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M55 164h190l38-38h130l62 62h160l32-32h128l70-70h280" opacity=".7">
+      <animate attributeName="stroke-dashoffset" values="0;180" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" values="4 14;18 22;4 14" dur="4.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g fill="#22d3ee" filter="url(#glow)">
+    <circle cx="180" cy="110" r="6"><animate attributeName="opacity" values=".2;1;.2" dur="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="377" cy="97" r="6"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="724" cy="82" r="6"><animate attributeName="opacity" values=".2;1;.2" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="940" cy="140" r="6"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="40" y="38" font-family="JetBrains Mono, Consolas, monospace" font-size="15" fill="#a5f3fc">CYBER CIRCUITRY BUS</text>
+  <text x="918" y="198" font-family="JetBrains Mono, Consolas, monospace" font-size="15" fill="#38bdf8">SEBIS SIGNAL ROUTER</text>
+</svg>

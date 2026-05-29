@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-label="Jamal Salem cyber engineering footer">
+  <defs><filter id="glow"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <rect width="1200" height="180" fill="#020617"/>
+  <path d="M0 110h268l42-44h170l36 44h684" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".65" filter="url(#glow)"/>
+  <path d="M0 150h1200" stroke="#0ea5e9" opacity=".4"/>
+  <text x="600" y="74" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="28" font-weight="700" fill="#e0faff" filter="url(#glow)">JAMAL SALEM</text>
+  <text x="600" y="108" text-anchor="middle" font-family="JetBrains Mono, Consolas, monospace" font-size="15" fill="#22d3ee">FPGA ENGINEERING | DIGITAL SYSTEMS RESEARCH | EMBEDDED SIGNAL INTELLIGENCE</text>
+  <rect x="180" y="130" width="840" height="10" rx="5" fill="#06172c" stroke="#155e75"/>
+  <rect x="180" y="130" width="120" height="10" rx="5" fill="#22d3ee" opacity=".8">
+    <animate attributeName="x" values="180;900;180" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
