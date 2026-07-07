@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jamal-salem/KZ-Insight/main/docs/Screenshot%202026-07-07%20114300.png" width="100%">
+</p>
+
+
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:020617,30:0f172a,70:0ea5e9,100:22d3ee&text=Jamal%20Salem&fontColor=e0faff&fontSize=56&fontAlignY=38&desc=FPGA%20Laboratory%20%7C%20Digital%20Systems%20Research%20%7C%20SEBIS&descSize=18&descAlignY=58&animation=fadeIn"/>
