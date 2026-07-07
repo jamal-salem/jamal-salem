@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jamal-salem/KZ-Insight/main/docs/Screenshot%202026-07-07%20114300.png" width="100%">
+  <img src="Screenshot%202026-07-07%20114300.png" width="100%">
 </p>
 
 <h1 align="center">Jamal Salem</h1>
